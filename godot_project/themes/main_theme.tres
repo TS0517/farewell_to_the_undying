@@ -1,0 +1,65 @@
+[gd_resource type="Theme" load_steps=4 format=3]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_panel"]
+bg_color = Color(0.075, 0.061, 0.047, 0.88)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.42, 0.31, 0.19, 0.9)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+shadow_color = Color(0, 0, 0, 0.35)
+shadow_size = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_button"]
+bg_color = Color(0.17, 0.13, 0.095, 0.88)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.48, 0.36, 0.22, 0.9)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+content_margin_left = 18.0
+content_margin_top = 10.0
+content_margin_right = 18.0
+content_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_button_hover"]
+bg_color = Color(0.24, 0.18, 0.12, 0.94)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.78, 0.58, 0.32, 0.95)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+content_margin_left = 18.0
+content_margin_top = 10.0
+content_margin_right = 18.0
+content_margin_bottom = 10.0
+
+[resource]
+default_font_size = 28
+Button/colors/font_color = Color(0.92, 0.86, 0.72, 1)
+Button/colors/font_hover_color = Color(1, 0.95, 0.78, 1)
+Button/colors/font_pressed_color = Color(0.78, 0.93, 1, 1)
+Button/font_sizes/font_size = 28
+Button/styles/normal = SubResource("StyleBoxFlat_button")
+Button/styles/hover = SubResource("StyleBoxFlat_button_hover")
+Button/styles/pressed = SubResource("StyleBoxFlat_button_hover")
+Label/colors/font_color = Color(0.92, 0.86, 0.72, 1)
+Label/colors/font_shadow_color = Color(0, 0, 0, 0.72)
+Label/constants/shadow_offset_x = 2
+Label/constants/shadow_offset_y = 2
+Label/font_sizes/font_size = 28
+Panel/styles/panel = SubResource("StyleBoxFlat_panel")
+RichTextLabel/colors/default_color = Color(0.92, 0.86, 0.72, 1)
+RichTextLabel/font_sizes/normal_font_size = 28
