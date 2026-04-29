@@ -126,6 +126,7 @@ vertical_alignment = 1
 [node name="DeadLabel" type="Label" parent="Hud/MonsterPanel"]
 visible = false
 layout_mode = 0
+theme_type_variation = &"SpecialLabel"
 offset_left = 268.0
 offset_top = 6.0
 offset_right = 402.0

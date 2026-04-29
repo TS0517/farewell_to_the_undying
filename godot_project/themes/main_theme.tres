@@ -1,4 +1,22 @@
-[gd_resource type="Theme" load_steps=4 format=3]
+[gd_resource type="Theme" load_steps=12 format=3]
+
+[ext_resource type="FontFile" path="res://assets/fonts/Hina_Mincho/HinaMincho-Regular.ttf" id="1_hina"]
+[ext_resource type="FontFile" path="res://assets/fonts/Kaisei_Tokumin/KaiseiTokumin-Regular.ttf" id="2_kaisei"]
+[ext_resource type="FontFile" path="res://assets/fonts/yuji-syuku/YujiSyuku-Regular.ttf" id="3_yuji"]
+[ext_resource type="FontFile" path="res://assets/fonts/EB_Garamond/static/EBGaramond-Regular.ttf" id="4_eb"]
+[ext_resource type="FontFile" path="res://assets/fonts/Noto_Serif_SC/static/NotoSerifSC-Regular.ttf" id="5_noto_sc"]
+
+[sub_resource type="FontVariation" id="FontVariation_body"]
+base_font = ExtResource("1_hina")
+fallbacks = Array[Font]([ExtResource("4_eb"), ExtResource("5_noto_sc")])
+
+[sub_resource type="FontVariation" id="FontVariation_title"]
+base_font = ExtResource("2_kaisei")
+fallbacks = Array[Font]([ExtResource("4_eb"), ExtResource("5_noto_sc"), ExtResource("1_hina")])
+
+[sub_resource type="FontVariation" id="FontVariation_special"]
+base_font = ExtResource("3_yuji")
+fallbacks = Array[Font]([ExtResource("4_eb"), ExtResource("5_noto_sc"), ExtResource("1_hina")])
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_panel"]
 bg_color = Color(0.075, 0.061, 0.047, 0.88)
@@ -47,11 +65,13 @@ content_margin_right = 18.0
 content_margin_bottom = 10.0
 
 [resource]
+default_font = SubResource("FontVariation_body")
 default_font_size = 28
 Button/colors/font_color = Color(0.92, 0.86, 0.72, 1)
 Button/colors/font_hover_color = Color(1, 0.95, 0.78, 1)
 Button/colors/font_pressed_color = Color(0.78, 0.93, 1, 1)
 Button/font_sizes/font_size = 28
+Button/fonts/font = SubResource("FontVariation_body")
 Button/styles/normal = SubResource("StyleBoxFlat_button")
 Button/styles/hover = SubResource("StyleBoxFlat_button_hover")
 Button/styles/pressed = SubResource("StyleBoxFlat_button_hover")
@@ -60,6 +80,15 @@ Label/colors/font_shadow_color = Color(0, 0, 0, 0.72)
 Label/constants/shadow_offset_x = 2
 Label/constants/shadow_offset_y = 2
 Label/font_sizes/font_size = 28
+Label/fonts/font = SubResource("FontVariation_body")
 Panel/styles/panel = SubResource("StyleBoxFlat_panel")
 RichTextLabel/colors/default_color = Color(0.92, 0.86, 0.72, 1)
 RichTextLabel/font_sizes/normal_font_size = 28
+RichTextLabel/fonts/normal_font = SubResource("FontVariation_body")
+SpecialLabel/base_type = &"Label"
+SpecialLabel/colors/font_color = Color(1, 0.24, 0.18, 1)
+SpecialLabel/font_sizes/font_size = 28
+SpecialLabel/fonts/font = SubResource("FontVariation_special")
+TitleLabel/base_type = &"Label"
+TitleLabel/font_sizes/font_size = 44
+TitleLabel/fonts/font = SubResource("FontVariation_title")
