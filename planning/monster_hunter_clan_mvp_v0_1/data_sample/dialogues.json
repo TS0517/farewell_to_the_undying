@@ -1,0 +1,29 @@
+[
+  {
+    "id": "dlg_coward_win_hard_001",
+    "trigger": "battle_win_hard",
+    "persona_id": "persona_coward_kind",
+    "age_stage": "any",
+    "meaning": "relief_survived",
+    "priority": 30,
+    "text_id": "dlg_coward_win_hard_001"
+  },
+  {
+    "id": "dlg_hotblood_win_normal_001",
+    "trigger": "battle_win_normal",
+    "persona_id": "persona_hotblood_big_brother",
+    "age_stage": "any",
+    "meaning": "victory_confidence",
+    "priority": 10,
+    "text_id": "dlg_hotblood_win_normal_001"
+  },
+  {
+    "id": "dlg_calm_prince_down_001",
+    "trigger": "battle_prince_down",
+    "persona_id": "persona_calm_ex_noble",
+    "age_stage": "any",
+    "meaning": "fear_of_immortality",
+    "priority": 50,
+    "text_id": "dlg_calm_prince_down_001"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "persona_coward_kind",
+    "name_text_id": "persona_coward_kind_name",
+    "tags": ["timid", "kind", "family"],
+    "first_person": "僕",
+    "speech_note": "不安げだが仲間を気遣う。弱音は吐くが逃げ切らない。"
+  },
+  {
+    "id": "persona_hotblood_big_brother",
+    "name_text_id": "persona_hotblood_big_brother_name",
+    "tags": ["hotblood", "reliable", "direct"],
+    "first_person": "俺",
+    "speech_note": "勢いがあり、仲間を励ます。難しい言葉は使わない。"
+  },
+  {
+    "id": "persona_calm_ex_noble",
+    "name_text_id": "persona_calm_ex_noble_name",
+    "tags": ["calm", "noble", "analytical"],
+    "first_person": "私",
+    "speech_note": "落ち着いた分析的な口調。感情は抑えるが冷酷ではない。"
+  }
+]

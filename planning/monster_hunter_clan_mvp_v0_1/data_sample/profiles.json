@@ -1,0 +1,20 @@
+[
+  {
+    "id": "profile_001",
+    "summary_text_id": "profile_001_summary",
+    "body_text_id": "profile_001_body",
+    "tags": ["young", "timid", "family", "commoner"]
+  },
+  {
+    "id": "profile_002",
+    "summary_text_id": "profile_002_summary",
+    "body_text_id": "profile_002_body",
+    "tags": ["young", "hotblood", "village", "revenge"]
+  },
+  {
+    "id": "profile_003",
+    "summary_text_id": "profile_003_summary",
+    "body_text_id": "profile_003_body",
+    "tags": ["calm", "noble", "fallen_house", "duty"]
+  }
+]

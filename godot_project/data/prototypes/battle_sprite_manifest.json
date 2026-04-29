@@ -1,0 +1,33 @@
+{
+  "backgrounds": {
+    "battle_test": "res://assets/_incoming/Overgrown stone ruin in misty forest.png"
+  },
+  "actors": {
+    "hero_prince": {
+      "display_name": "不死の王子",
+      "display_scale": 0.145,
+      "foot_anchor_x": 0.5,
+      "foot_anchor_y": 0.867,
+      "states": {
+        "idle": "res://assets/_incoming/prince_idle_backview_transparent.png",
+        "attack": "res://assets/_incoming/prince_attack_backview_transparent.png",
+        "hit": "res://assets/_incoming/prince_hit_backview_transparent.png",
+        "skill": "res://assets/_incoming/prince_skill_backview_transparent.png",
+        "death": "res://assets/_incoming/prince_down_backview_transparent.png"
+      }
+    },
+    "forest_beast": {
+      "display_name": "森の魔物",
+      "display_scale": 0.44,
+      "foot_anchor_x": 0.5,
+      "foot_anchor_y": 0.954,
+      "states": {
+        "idle": "res://assets/_incoming/monster_forest_beast_idle_transparent.png",
+        "attack": "res://assets/_incoming/Fierce forest guardian in attack pose_transparent.png",
+        "hit": "res://assets/_incoming/Recoil of the forest guardian_transparent.png",
+        "skill": "res://assets/_incoming/Roaring woodland beast with glowing armor_transparent.png",
+        "death": "res://assets/_incoming/Fallen forest guardianendoftext_transparent.png"
+      }
+    }
+  }
+}

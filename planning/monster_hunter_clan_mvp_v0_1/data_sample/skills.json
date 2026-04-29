@@ -1,0 +1,21 @@
+[
+  {"id":"skill_swordsman_front","name_text_id":"skill_swordsman_front_name","description_text_id":"skill_swordsman_front_desc","type":"damage","power":1.25,"target":"enemy","scaling":"str"},
+  {"id":"skill_swordsman_middle","name_text_id":"skill_swordsman_middle_name","description_text_id":"skill_swordsman_middle_desc","type":"damage","power":1.00,"target":"enemy","scaling":"str"},
+  {"id":"skill_swordsman_back","name_text_id":"skill_swordsman_back_name","description_text_id":"skill_swordsman_back_desc","type":"buff_self","power":1.00,"target":"self","scaling":"vit"},
+
+  {"id":"skill_guardian_front","name_text_id":"skill_guardian_front_name","description_text_id":"skill_guardian_front_desc","type":"guard","power":1.30,"target":"allies","scaling":"vit"},
+  {"id":"skill_guardian_middle","name_text_id":"skill_guardian_middle_name","description_text_id":"skill_guardian_middle_desc","type":"damage","power":0.90,"target":"enemy","scaling":"vit"},
+  {"id":"skill_guardian_back","name_text_id":"skill_guardian_back_name","description_text_id":"skill_guardian_back_desc","type":"buff_allies","power":1.00,"target":"allies","scaling":"vit"},
+
+  {"id":"skill_archer_front","name_text_id":"skill_archer_front_name","description_text_id":"skill_archer_front_desc","type":"damage","power":0.75,"target":"enemy","scaling":"agi"},
+  {"id":"skill_archer_middle","name_text_id":"skill_archer_middle_name","description_text_id":"skill_archer_middle_desc","type":"damage","power":1.00,"target":"enemy","scaling":"agi"},
+  {"id":"skill_archer_back","name_text_id":"skill_archer_back_name","description_text_id":"skill_archer_back_desc","type":"damage","power":1.35,"target":"enemy","scaling":"agi"},
+
+  {"id":"skill_mage_front","name_text_id":"skill_mage_front_name","description_text_id":"skill_mage_front_desc","type":"damage","power":0.70,"target":"enemy","scaling":"int"},
+  {"id":"skill_mage_middle","name_text_id":"skill_mage_middle_name","description_text_id":"skill_mage_middle_desc","type":"debuff","power":1.00,"target":"enemy","scaling":"int"},
+  {"id":"skill_mage_back","name_text_id":"skill_mage_back_name","description_text_id":"skill_mage_back_desc","type":"damage","power":1.45,"target":"enemy","scaling":"int"},
+
+  {"id":"skill_cleric_front","name_text_id":"skill_cleric_front_name","description_text_id":"skill_cleric_front_desc","type":"damage","power":0.65,"target":"enemy","scaling":"int"},
+  {"id":"skill_cleric_middle","name_text_id":"skill_cleric_middle_name","description_text_id":"skill_cleric_middle_desc","type":"heal","power":1.00,"target":"ally_lowest_hp","scaling":"int"},
+  {"id":"skill_cleric_back","name_text_id":"skill_cleric_back_name","description_text_id":"skill_cleric_back_desc","type":"regen","power":1.00,"target":"allies","scaling":"int"}
+]

@@ -1,0 +1,171 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/battle/battle_test_screen.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/battle/pose_sprite_actor.gd" id="2"]
+
+[node name="BattleTestScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stretch_mode = 6
+
+[node name="AtmosphereTint" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.025, 0.052, 0.072, 0.22)
+
+[node name="World" type="Node2D" parent="."]
+
+[node name="AllyGridImage" type="Sprite2D" parent="World"]
+z_index = 1
+position = Vector2(360, 470)
+centered = false
+
+[node name="HeroActor" type="Sprite2D" parent="World"]
+z_index = 2
+position = Vector2(466, 749)
+script = ExtResource("2")
+
+[node name="AllyActor2" type="Sprite2D" parent="World"]
+z_index = 2
+position = Vector2(587, 780)
+script = ExtResource("2")
+
+[node name="AllyActor3" type="Sprite2D" parent="World"]
+z_index = 2
+position = Vector2(557, 677)
+script = ExtResource("2")
+
+[node name="AllyActor4" type="Sprite2D" parent="World"]
+z_index = 2
+position = Vector2(678, 708)
+script = ExtResource("2")
+
+[node name="MonsterActor" type="Sprite2D" parent="World"]
+z_index = 2
+position = Vector2(1030, 330)
+script = ExtResource("2")
+
+[node name="Effects" type="Node2D" parent="World"]
+z_index = 5
+
+[node name="Hud" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MonsterPanel" type="Panel" parent="Hud"]
+layout_mode = 0
+offset_left = 760.0
+offset_top = 615.0
+offset_right = 1180.0
+offset_bottom = 699.0
+
+[node name="NameLabel" type="Label" parent="Hud/MonsterPanel"]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 6.0
+offset_right = 258.0
+offset_bottom = 34.0
+theme_override_font_sizes/font_size = 22
+text = "Monster"
+
+[node name="HpBar" type="ProgressBar" parent="Hud/MonsterPanel"]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 38.0
+offset_right = 402.0
+offset_bottom = 56.0
+max_value = 100.0
+value = 100.0
+show_percentage = false
+
+[node name="AtbBar" type="ProgressBar" parent="Hud/MonsterPanel"]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 62.0
+offset_right = 402.0
+offset_bottom = 76.0
+max_value = 100.0
+value = 0.0
+show_percentage = false
+
+[node name="HpValueLabel" type="Label" parent="Hud/MonsterPanel"]
+layout_mode = 0
+offset_left = 268.0
+offset_top = 6.0
+offset_right = 402.0
+offset_bottom = 34.0
+theme_override_font_sizes/font_size = 18
+text = "000/000"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="DeadLabel" type="Label" parent="Hud/MonsterPanel"]
+visible = false
+layout_mode = 0
+offset_left = 268.0
+offset_top = 6.0
+offset_right = 402.0
+offset_bottom = 34.0
+theme_override_font_sizes/font_size = 20
+text = "DEAD"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="UnitStatusPanelRow" type="VBoxContainer" parent="Hud"]
+layout_mode = 0
+offset_left = 1472.0
+offset_top = 72.0
+offset_right = 1896.0
+offset_bottom = 612.0
+theme_override_constants/separation = 12
+alignment = 0
+
+[node name="DialoguePanel" type="Panel" parent="Hud"]
+layout_mode = 0
+offset_left = 56.0
+offset_top = 902.0
+offset_right = 1408.0
+offset_bottom = 1056.0
+
+[node name="SpeakerLabel" type="Label" parent="Hud/DialoguePanel"]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 14.0
+offset_right = 280.0
+offset_bottom = 48.0
+theme_override_font_sizes/font_size = 24
+text = "王子"
+vertical_alignment = 1
+
+[node name="LineLabel" type="Label" parent="Hud/DialoguePanel"]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 58.0
+offset_right = 1318.0
+offset_bottom = 128.0
+theme_override_font_sizes/font_size = 30
+text = "行くぞ。"
+autowrap_mode = 3
+vertical_alignment = 1

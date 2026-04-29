@@ -1,0 +1,42 @@
+[
+  {
+    "id": "job_swordsman",
+    "name_text_id": "job_swordsman_name",
+    "front_skill_id": "skill_swordsman_front",
+    "middle_skill_id": "skill_swordsman_middle",
+    "back_skill_id": "skill_swordsman_back",
+    "base_stat_weight": {"str": 1.2, "agi": 1.0, "vit": 1.0, "int": 0.5}
+  },
+  {
+    "id": "job_guardian",
+    "name_text_id": "job_guardian_name",
+    "front_skill_id": "skill_guardian_front",
+    "middle_skill_id": "skill_guardian_middle",
+    "back_skill_id": "skill_guardian_back",
+    "base_stat_weight": {"str": 0.8, "agi": 0.6, "vit": 1.5, "int": 0.5}
+  },
+  {
+    "id": "job_archer",
+    "name_text_id": "job_archer_name",
+    "front_skill_id": "skill_archer_front",
+    "middle_skill_id": "skill_archer_middle",
+    "back_skill_id": "skill_archer_back",
+    "base_stat_weight": {"str": 0.8, "agi": 1.3, "vit": 0.8, "int": 0.7}
+  },
+  {
+    "id": "job_mage",
+    "name_text_id": "job_mage_name",
+    "front_skill_id": "skill_mage_front",
+    "middle_skill_id": "skill_mage_middle",
+    "back_skill_id": "skill_mage_back",
+    "base_stat_weight": {"str": 0.4, "agi": 0.8, "vit": 0.6, "int": 1.5}
+  },
+  {
+    "id": "job_cleric",
+    "name_text_id": "job_cleric_name",
+    "front_skill_id": "skill_cleric_front",
+    "middle_skill_id": "skill_cleric_middle",
+    "back_skill_id": "skill_cleric_back",
+    "base_stat_weight": {"str": 0.5, "agi": 0.8, "vit": 0.9, "int": 1.2}
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "job_swordsman_name": "剣士",
+  "job_guardian_name": "盾兵",
+  "job_archer_name": "弓兵",
+  "job_mage_name": "魔法使い",
+  "job_cleric_name": "僧侶",
+
+  "skill_swordsman_front_name": "斬り込み",
+  "skill_swordsman_front_desc": "前列で威力の高い近接攻撃を行う。",
+  "skill_swordsman_middle_name": "踏み込み斬り",
+  "skill_swordsman_middle_desc": "中列から安定した攻撃を行う。",
+  "skill_swordsman_back_name": "構え直し",
+  "skill_swordsman_back_desc": "後列で防御姿勢を整える。",
+
+  "skill_guardian_front_name": "かばう",
+  "skill_guardian_front_desc": "前列で味方を守る。",
+  "skill_guardian_middle_name": "盾打ち",
+  "skill_guardian_middle_desc": "中列から敵を打ち据える。",
+  "skill_guardian_back_name": "守りの号令",
+  "skill_guardian_back_desc": "後列から味方の守りを固める。",
+
+  "skill_archer_front_name": "短剣で応戦",
+  "skill_archer_front_desc": "前列で短剣による弱い攻撃を行う。",
+  "skill_archer_middle_name": "牽制射撃",
+  "skill_archer_middle_desc": "中列から敵の動きを抑える射撃を行う。",
+  "skill_archer_back_name": "狙撃",
+  "skill_archer_back_desc": "後列から高威力の射撃を行う。",
+
+  "skill_mage_front_name": "杖打ち",
+  "skill_mage_front_desc": "前列で弱い魔力攻撃を行う。",
+  "skill_mage_middle_name": "魔力干渉",
+  "skill_mage_middle_desc": "中列から敵を弱体化する。",
+  "skill_mage_back_name": "大火球",
+  "skill_mage_back_desc": "後列から高威力の魔法攻撃を行う。",
+
+  "skill_cleric_front_name": "聖印打ち",
+  "skill_cleric_front_desc": "前列で弱い聖属性攻撃を行う。",
+  "skill_cleric_middle_name": "治癒",
+  "skill_cleric_middle_desc": "中列で最も傷ついた味方を回復する。",
+  "skill_cleric_back_name": "祈り",
+  "skill_cleric_back_desc": "後列から味方全体を少しずつ回復する。",
+
+  "persona_coward_kind_name": "怖がりだが仲間思い",
+  "persona_hotblood_big_brother_name": "熱血な兄貴肌",
+  "persona_calm_ex_noble_name": "冷静な元貴族",
+
+  "profile_001_summary": "辺境の村出身。家族を養うために戦う気弱な若者。",
+  "profile_001_body": "辺境の炭焼き村で生まれた少年。魔物に父を奪われ、母と妹を食べさせるために弓を取った。本当は戦いが怖いが、誰かを守れる人間になりたいと願っている。",
+  "profile_002_summary": "魔物に村を焼かれ、力で未来を取り戻そうとする若者。",
+  "profile_002_body": "山あいの小さな村で育った若者。村を襲った魔物を前に何もできなかった悔しさを抱え、王子の討伐隊に志願した。強くなれば、もう誰も失わずに済むと信じている。",
+  "profile_003_summary": "没落した家の名誉を背負う、冷静な若き魔法使い。",
+  "profile_003_body": "かつて王都に仕えた下級貴族の家に生まれた。魔王襲来で家は没落し、残された書物だけが誇りとなった。感情を表に出さないが、王国を取り戻すことに静かな執念を燃やしている。",
+
+  "dlg_coward_win_hard_001": "……足がまだ震えてます。でも、みんながいたから戻れました。",
+  "dlg_hotblood_win_normal_001": "よっしゃ、今日も生き残ったな！次もこの調子で行こうぜ！",
+  "dlg_calm_prince_down_001": "王子が倒れる瞬間には、まだ慣れません。復活すると分かっていても。",
+
+  "monster_goblin_name": "小鬼",
+  "monster_wolf_beast_name": "狼獣",
+  "monster_ogre_name": "大鬼"
+}

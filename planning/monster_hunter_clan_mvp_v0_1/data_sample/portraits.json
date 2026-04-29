@@ -1,0 +1,20 @@
+[
+  {
+    "id": "portrait_001",
+    "face_path": "res://assets/portraits/face_001.png",
+    "bust_path": "res://assets/portraits/bust_001.png",
+    "tags": ["young", "timid", "commoner", "archer_like"]
+  },
+  {
+    "id": "portrait_002",
+    "face_path": "res://assets/portraits/face_002.png",
+    "bust_path": "res://assets/portraits/bust_002.png",
+    "tags": ["young", "hotblood", "swordsman_like"]
+  },
+  {
+    "id": "portrait_003",
+    "face_path": "res://assets/portraits/face_003.png",
+    "bust_path": "res://assets/portraits/bust_003.png",
+    "tags": ["calm", "noble", "mage_like"]
+  }
+]

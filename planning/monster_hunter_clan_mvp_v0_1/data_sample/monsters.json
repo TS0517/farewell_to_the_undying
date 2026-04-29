@@ -1,0 +1,35 @@
+[
+  {
+    "id": "monster_goblin",
+    "name_text_id": "monster_goblin_name",
+    "hp": 120,
+    "str": 10,
+    "agi": 8,
+    "vit": 6,
+    "int": 2,
+    "year_min": 1,
+    "year_max": 4
+  },
+  {
+    "id": "monster_wolf_beast",
+    "name_text_id": "monster_wolf_beast_name",
+    "hp": 160,
+    "str": 12,
+    "agi": 12,
+    "vit": 7,
+    "int": 3,
+    "year_min": 3,
+    "year_max": 8
+  },
+  {
+    "id": "monster_ogre",
+    "name_text_id": "monster_ogre_name",
+    "hp": 260,
+    "str": 18,
+    "agi": 5,
+    "vit": 14,
+    "int": 2,
+    "year_min": 7,
+    "year_max": 10
+  }
+]
